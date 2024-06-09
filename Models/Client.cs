@@ -11,4 +11,5 @@ public class Client
     public virtual ICollection<Discount> Discounts { get; set; } = new List<Discount>();
     public virtual ICollection<Sale> Sales { get; set; } = new List<Sale>();
     public virtual ICollection<Payment> Payments { get; set; } = new List<Payment>();
+    public int Id { get; internal set; }
 }

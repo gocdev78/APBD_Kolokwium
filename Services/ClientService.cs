@@ -5,7 +5,7 @@ using KolokwiumCF.Repositories;
 
 namespace KolokwiumCF.Services;
 
-public class ClientService(IClientRepository clientRepository, IPaymentRepository paymentRepository) : IClientService
+public class ClientService(IClientRepository clientRepository, IPaymentRepository paymentRepository) : IClientService, IClientService1
 {
     public async Task<ClientDTO> GetClientAsync(int id)
     {

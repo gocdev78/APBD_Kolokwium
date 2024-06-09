@@ -2,7 +2,7 @@
 
 namespace KolokwiumCF.Repositories;
 
-public class PaymentRepository(KoloContext context) : IPaymentRepository
+public class PaymentRepository(KoloContext context) : IPaymentRepository, IPaymentRepository1
 {
     public async Task<int> AddPaymentAsync(Payment payment)
     {

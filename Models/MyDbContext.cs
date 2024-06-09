@@ -1,3 +1,4 @@
+using KolokwiumCF.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Kolokwium.Models;
